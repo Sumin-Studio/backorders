@@ -122,6 +122,7 @@ export default function BillPage() {
       )
       for (const invoice of backorderedInvoices) {
         const backorderedItem = invoice.items.find((item: BackorderedItem) => item.itemName === row.itemName && item.backordered)
+        if (!backorderedItem) continue
         const allocateQty = Math.min(qtyAdded, backorderedItem.qty)
         const newEntry = {
           id: Date.now() + Math.random(),
