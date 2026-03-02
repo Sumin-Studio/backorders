@@ -1,0 +1,89 @@
+[
+  {
+    "id": 1772409801879,
+    "number": "INV-0003",
+    "ref": "",
+    "to": "Customer",
+    "date": "11 Apr 2022",
+    "dueDate": "11 Apr 2022",
+    "paid": 0,
+    "due": 3162.5,
+    "status": "Awaiting Payment",
+    "sent": false,
+    "items": [
+      {
+        "itemName": "Kalita Wave Filter 100pc",
+        "description": "Paper coffee filter for flat bottom pour over sets",
+        "qty": 50,
+        "price": 55,
+        "account": "200 - Sales",
+        "taxRate": "15% GST on Income",
+        "amount": 2750,
+        "backordered": true
+      }
+    ],
+    "history": [
+      {
+        "id": 1772409821849.733,
+        "date": "2 Mar 2026",
+        "message": "+50 Kalita Wave Filter 100pc automatically allocated to this invoice",
+        "type": "allocation"
+      }
+    ]
+  },
+  {
+    "id": 1772409182059,
+    "number": "INV-0002",
+    "ref": "",
+    "to": "Customer",
+    "date": "11 Apr 2022",
+    "dueDate": "11 Apr 2022",
+    "paid": 0,
+    "due": 1725,
+    "status": "Awaiting Payment",
+    "sent": false,
+    "items": [
+      {
+        "itemName": "Custom Mugs",
+        "description": "Hand made mugs made by our team",
+        "qty": 100,
+        "price": 15,
+        "account": "200 - Sales",
+        "taxRate": "15% GST on Income",
+        "amount": 1500,
+        "backordered": true
+      }
+    ],
+    "history": [
+      {
+        "id": 1772409200160.0586,
+        "date": "2 Mar 2026",
+        "message": "+100 Custom Mugs automatically allocated to this invoice",
+        "type": "allocation"
+      }
+    ]
+  },
+  {
+    "id": 1772408385978,
+    "number": "INV-0001",
+    "ref": "",
+    "to": "Customer",
+    "date": "11 Apr 2022",
+    "dueDate": "11 Apr 2022",
+    "paid": 0,
+    "due": 23,
+    "status": "Awaiting Payment",
+    "sent": false,
+    "items": [
+      {
+        "itemName": "Coffee Beans",
+        "description": "Japanese blond roast blend",
+        "qty": 1,
+        "price": 20,
+        "account": "200 - Sales",
+        "taxRate": "15% GST on Income",
+        "amount": 20
+      }
+    ]
+  }
+]
